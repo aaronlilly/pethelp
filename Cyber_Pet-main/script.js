@@ -68,3 +68,19 @@ const Animal = new Pet("TEST")
 console.log(Animal);
 
 //setInterval(() => {this.ignored()}, 30000);
+
+
+
+
+let alteredPet = {
+ hunger: 0
+
+}
+
+function alteredFeed(){
+    alteredPet.hunger += 10;
+   
+}
+
+alteredFeed();
+console.log(alteredPet.hunger)
