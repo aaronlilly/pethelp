@@ -73,7 +73,7 @@ console.log(Animal);
 
 
 let alteredPet = {
- hunger: 0
+ hunger: 0,
 
 }
 
@@ -82,5 +82,25 @@ function alteredFeed(){
    
 }
 
-alteredFeed();
-console.log(alteredPet.hunger)
+ alteredFeed();
+ console.log(alteredPet.hunger)
+
+////////
+
+  
+
+ let alteredPet2 = {
+    hunger: 0,
+   feed :  function alteredFeed2(){
+    alteredPet2.hunger += 10;
+   
+}
+
+   
+}
+   
+ 
+   
+    alteredPet2.feed;
+    console.log(alteredPet2.hunger)
+   
